@@ -1,2 +1,2 @@
-# M907_ASR_TTS
-M.Sc. in Language Technology M907- Speech Recognition and Speech Synthesis Technologies
+# M907_Automatic Speech Recognition
+M.Sc. in Language Technology M907- ASR Assignment
