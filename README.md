@@ -12,3 +12,13 @@ Refer to the notebook "Adding noise.ipynb"
 signal, sr = librosa.load("C:/Users/path_to_your_original_audio_file.wav", sr=16000)
 noise, sr_noise = librosa.load("C:/Users/path_to_your_chosen_noise.wav", sr=16000)
 ```
+
+### 2) Generating transcriptions with Mozilla DeepSpeech
+
+a)From noisy .wav files
+
+b)From clean .wav files by adjusting the effect of the language model (lm_alpha) or/and the word insertion bonus (lm_beta)
+
+Refer to the notebook "Transcriptions with Mozilla Deepspeech.ipynb"
+Download the pretrained language (deepspeech-0.9.3-models.scorer)  and acoustic models (deepspeech-0.9.3-models.pbmm)  from : https://github.com/mozilla/DeepSpeech/releases
+
