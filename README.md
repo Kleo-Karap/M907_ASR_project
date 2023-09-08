@@ -8,5 +8,7 @@ This is a useful repo for you to experiment with the effect of the lanugage mode
 ### 1) Generating Noisy files with SNR(signal to noise ratio)= [3,6,9] dB and comparing the spectograms of clean and noisy files.
 Refer to the notebook "Adding noise.ipynb"
 
+```
 signal, sr = librosa.load("C:/Users/path_to_your_original_audio_file.wav", sr=16000)
 noise, sr_noise = librosa.load("C:/Users/path_to_your_chosen_noise.wav", sr=16000)
+```
