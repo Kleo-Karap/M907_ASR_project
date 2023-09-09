@@ -45,6 +45,7 @@ Each script will generate a .csv file, containing all WAV files with their WAV_i
 5) word count per .wav file. (N)
 
 These .csv files can be used for comparing the WER-results in the generated versions of the transcribed datasets and for making more application-specific decisions on fine-tuning Mozilla DeepSpeech. The image below shows an example comparatory plot of the different vlaues I tried on the language model(lm_alpha), the word insertion bonus(lm_beta=2) and the signal to noise ratio in the noisy transcritpions for my assignment. You can experiment with more extreme values for fun.
+
 ![image](https://github.com/Kleo-Karap/M907_ASR/assets/117507917/c7c151e5-8321-4a44-8885-afeaf3b1df70)
 
 Since you're plotting mean vlaues of WER ,it's best practice to preprocess the .csv files and eliminate outliers from your datasets in order to avoid misrepresenting your results. For this purpose, you can check the notebook "Comparing WER results.ipynb".
