@@ -12,6 +12,8 @@ Refer to the notebook "Adding noise.ipynb"
 signal, sr = librosa.load("C:/Users/path_to_your_original_audio_file.wav", sr=16000)
 noise, sr_noise = librosa.load("C:/Users/path_to_your_chosen_noise.wav", sr=16000)
 ```
+For more noise recordings check DEMAND database: https://zenodo.org/record/1227121#.ZCxVHuwvPvV
+Choose the ones that end in _16k.zip to have sampling rate=16000 Hz
 
 ### 2) Generating transcriptions with Mozilla DeepSpeech
 
@@ -48,7 +50,7 @@ These .csv files can be used for comparing the WER-results in the generated vers
 Since you're plotting mean vlaues of WER ,it's best practice to preprocess the .csv files and eliminate outliers from your datasets in order to avoid misrepresenting your results. For this purpose, you can check the notebook "Comparing WER results.ipynb".
 
 ## Contributor Expectations
-1. Experiment with new datasets apart from LibriSpeech (perhaps domain specific ones)
+1. Experiment with new datasets apart from [MiniLibriSpeech](https://www.openslr.org/31/)  (perhaps domain specific ones)
 2. Adjust the code to add more evaluation metrics on the experiment setting, like (Character Error Rate (CER), Word Information Lost (WIL) or Match Error Rate (MER)
 
 ## References
