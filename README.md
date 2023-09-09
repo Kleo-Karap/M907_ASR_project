@@ -1,7 +1,7 @@
 # M907_Automatic Speech Recognition
 M.Sc. in Language Technology M907- ASR Assignment: Experiments and Evaluation on Mozilla DeepSpeech
 
-This is a useful repo for you to experiment with the effect of the lanugage model,the effect of the word insertion bonus, as well as the effect of background noise in the transcription performance of the pretrained English model of Mozilla Deepspeech. The evaluation metric used is the Word Error Rate, which is the sum of word substitutions, deletions and insertions divided by the number of words in the reference sentence.
+This is a useful repo for you to experiment with the effect of the lanugage model, the word insertion bonus, as well as background noise in the transcription performance of the pretrained English model of Mozilla Deepspeech. The evaluation metric used is the Word Error Rate, which is the sum of word substitutions, deletions and insertions divided by the number of words in the reference sentence.
 
 ## User Instructions
 
@@ -20,7 +20,9 @@ a)From noisy .wav files
 b)From clean .wav files by adjusting the effect of the language model (lm_alpha) or/and the word insertion bonus (lm_beta)
 
 Refer to the notebook "Transcriptions with Mozilla Deepspeech.ipynb"
+
 Download the pretrained language (deepspeech-0.9.3-models.scorer)  and acoustic models (deepspeech-0.9.3-models.pbmm)  from : https://github.com/mozilla/DeepSpeech/releases
+
 Experiment with several lm_alpha and lm_beta values
 
 Special thanks to Rosario-Moscato-Lab. GitHub. [https://github.com/rosariomoscato/Rosario-Moscato-Lab](https://github.com/rosariomoscato/Rosario-Moscato-Lab/blob/main/Audio/DeepSpeech.ipynb), for helping me in the generating the transcription files with DeepSpeech!
