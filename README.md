@@ -1,5 +1,5 @@
-# M.Sc. in Language Technology M907- ASR Assignment: Experiments and Evaluation on Mozilla DeepSpeech
-
+# Experiments and Evaluation on Mozilla DeepSpeech
+M.Sc. in Language Technology M907: Automatic Speech Recognition
 
 This is a useful repo for you to experiment with the effect of the lanugage model, the word insertion bonus, as well as background noise in the transcription performance of the pretrained English model of Mozilla Deepspeech. The evaluation metric used is the Word Error Rate, which is the sum of word substitutions, deletions and insertions divided by the number of words in the reference sentence.
 
